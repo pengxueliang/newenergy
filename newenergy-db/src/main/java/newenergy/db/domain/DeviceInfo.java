@@ -19,11 +19,21 @@ public class DeviceInfo {
     private Integer id;
     @Column(length = 14)
     private String registerId;
+    private String deviceNum;
     private Integer active;
     private Integer faultNum;
     private LocalDateTime updateTime;
     private Integer monitorId;
     private Integer servicerId;
+
+    public String getDeviceNum() {
+        return deviceNum;
+    }
+
+    public void setDeviceNum(String deviceNum) {
+        this.deviceNum = deviceNum;
+    }
+
 
     public Integer getId() {
         return id;
