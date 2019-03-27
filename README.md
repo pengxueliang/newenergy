@@ -1,10 +1,20 @@
 
+## 0. fork项目到自己的仓库
+
+![](imgs/fork.png)
+
 ## 1. 克隆项目的dev分支  
 
+复制仓库地址，使用`ssh`方式需要在设置中添加本机的公钥 
+ 
+![](imgs/clone.png)
+
+这里使用自己的`github`仓库的地址
 ```
-git clone -b dev https://github.com/SimpleFate/newenergy.git
+git clone -b dev git@github.com:SimpleFate/newenergy.git
 ```
-![](imgs/git.png)
+![](imgs/gitssh.png)
+
 ## 2. 使用idea导入  
 ![](imgs/import0.png)
 ![](imgs/import1.png)
@@ -13,8 +23,7 @@ git clone -b dev https://github.com/SimpleFate/newenergy.git
 ![](imgs/import4.png)
 ![](imgs/import5.png)
 
-## 3. 说明
-### 每次添加一个新功能时的流程
+## 3. 添加新功能
 - 在本地新建一个`feat`分支 
 
 ![](imgs/p0.png)  
@@ -86,5 +95,20 @@ git clone -b dev https://github.com/SimpleFate/newenergy.git
     或
 
     ![](imgs/p11-2.png)
+    
+## 4. 提交 `pull request`
+
+![](imgs/pullrequest0.png)
+
+请求合并自己的`dev`分支
+
+![](imgs/pullrequest1.png)
+
+添加相关的提交描述
+
+![](imgs/pullrequest2.png)
+
+
+
 
 
