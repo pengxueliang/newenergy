@@ -14,7 +14,7 @@ public class NewenergyAdminService {
 
     public List<NewenergyAdmin> findAdmin(String username) {
 
-       return adminRepository.getAllByUsernameAndDeletedIsFalse(username);
+        return adminRepository.getAllByUsernameAndDeletedIsFalse(username);
 
     }
 }
