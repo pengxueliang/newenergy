@@ -18,8 +18,10 @@ public class DeviceRequire {
     @GeneratedValue
     private Integer id;
     private String plotInfo;
+
     private Double requireVolume;
     private LocalDateTime updateTime;
+
     private Integer updateLoop;
 
     private LocalDateTime safeChangedTime;
@@ -98,4 +100,5 @@ public class DeviceRequire {
     public void setSafeParent(Integer safeParent) {
         this.safeParent = safeParent;
     }
+
 }
